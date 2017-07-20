@@ -34,9 +34,9 @@ tuned for the videos:
 - maskpoly = np.array([[(100,imgshape[0]),(460,330),(540,330),(imgshape[1],imgshape[0])]], dtype=np.int32)
 - houghrho = 1 
 - houghtheta = 3.14/180
-- houghthreshold = 50 
-- houghminlen = 150
-- houghmaxgap = 80
+- houghthreshold = 40 
+- houghminlen = 130
+- houghmaxgap = 200
 
 This leaves one with a set of lines, but there are too many lines in the image that do not apply to the problem.
 
